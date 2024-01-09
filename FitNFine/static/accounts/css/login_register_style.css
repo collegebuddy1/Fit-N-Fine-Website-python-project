@@ -1,0 +1,65 @@
+.modal-title
+{
+    font-size: 1em;
+}
+
+.main_page h2
+{
+	/* border:solid; */
+    padding-bottom:10px;
+	line-height: 1.5;
+    font-weight: bold;
+    color: #222;
+    font-family: Poppins;
+    font-size: 42px;
+}
+
+.modal-body .form-group
+{
+	border-bottom: 1.5px solid black;
+	width:calc(8vw + 240px);
+	margin:25px auto;
+    text-align:left;
+    /* border:solid; */
+    box-sizing: border-box;
+}
+
+.modal-body .form_term
+{
+	border: none;
+}
+
+.main_page .txt_input
+{
+    box-sizing: border-box;
+    text-rendering: auto;
+    text-align: start;
+	cursor: text;
+    border-style: none;
+    padding:0px 12px;
+    width:calc(8vw + 200px);
+    height:50px;
+    background:rgba(0,0,0,0);
+    font-size: 1.1em;
+}
+input:focus, textarea:focus, select:focus{
+    outline: none;
+}
+
+.form_term
+{
+    border-style: none;
+}
+
+.modal-footer
+{
+    margin-top: -20px;
+    /* border: solid; */
+}
+.footer_buttons button
+{
+    font-weight:600;
+    border: 2px;
+    font-size: 1.1em;
+    padding:9px 16px 9px 16px;
+}

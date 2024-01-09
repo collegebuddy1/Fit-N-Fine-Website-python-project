@@ -1,0 +1,46 @@
+{% load static %}
+<!-- Landing Page -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    {% include 'main_app/common_meta.html' %}
+
+    <!-- Link or CSS Tags -->
+    {% include 'main_app/common_css.html' %}
+    <link rel="stylesheet" href="{% static 'main_app/css/index_style.css' %}">
+    <!-- <link rel="stylesheet" href="{% static 'main_app/css/testimonial_style.css' %}"> -->
+    <!-- <link rel="stylesheet" href="{% static 'main_app/css/prompt_style.css' %}"> -->
+    <link rel="stylesheet" href="{% static 'main_app/css/features_style.css' %}">
+
+    <title>Fit N' Fine</title>
+
+</head>
+<body>
+
+    <!-- Messages -->
+    {% include 'main_app/show_messages.html' %}
+
+    <!-- Navbar -->
+    {% include 'main_app/navbar.html' %}
+
+    <!-- Main Display -->
+    <section id="main_section">
+        <div class="content">
+          <h1>"The Journey Of A Thousand Miles Begins With A Single Step."</h1>
+          <p>-Lao Tzu</p>
+          <a href="#features_section">Welcome to Fit N' Fine</a>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    {% include 'main_app/features.html' %}
+
+    <!-- Footer -->
+    {% include 'main_app/footer.html' %}
+
+    <!-- JavaScript -->
+    {% include 'main_app/common_js.html' %}
+</body>
+</html> 
